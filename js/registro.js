@@ -9,5 +9,5 @@ document.getElementById("registroForm").addEventListener("submit", function(e) {
     localStorage.setItem("usuario", JSON.stringify({ nombre, correo, contrasena }));
 
     // Redirigir //
-    window.location.href = "login.html";
+    window.location.href = "./kibi/login.html";
 });
