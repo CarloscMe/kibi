@@ -81,7 +81,7 @@ span{
 }
 
 .sakura{
-    background-image: url('/img/sakura.jpg');
+    background-image: url('./img/sakura.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
