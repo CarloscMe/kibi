@@ -59,7 +59,7 @@ a {
 }
 
 .fondo{
-    background-image: url('/img/fondoh.jpg');
+    background-image: url('./img/fondoh.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -107,7 +107,7 @@ a {
   }
 
   .fnd{
-    background-image: url('/img/fondos.jpg');
+    background-image: url('./img/fondos.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -170,7 +170,7 @@ a {
 }
 
 .fin{
-    background-image: url('/img/fondou.jpg');
+    background-image: url('./img/fondou.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
