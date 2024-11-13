@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+   <!--header menu de navegacion-->
+    <header class="initial sakura">
+        <div class="nav contenedor">
+            <h2 class="name">Hola<br><span id="nombreUsuario"></span></h2>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/img/menu.png" alt="b">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#productos">productos</a></li>
+                    <li> <button class="button" id="cerrarSesion">Cerrar sesión</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <!--galeria de imagenes-->
+    <div class="row">
+
+        <div class="column">
+            <img src="/img/img1.jpg" alt="$400" title="$400">
+            <img src="/img/img2.jpg" alt="$200" title="$200">
+            <img id="inicio" src="/img/img3.jpg" alt="$300" title="$300">
+            <img src="/img/img4.jpg" alt="$100" title="$100">
+            <img  src="/img/img5.jpg" alt="$200" title="$200">
+        </div>
+
+        <div class="column">
+            <img src="/img/img6.jpg" alt="1400" title="$1400">
+            <img id="productos" src="/img/img7.jpg" alt="$200" title="$200">
+            <img src="/img/img8.jpg" alt="$300" title="$300">
+            <img src="/img/img10.jpg" alt="$100" title="$100">
+            <img src="/img/img9.jpg" alt="$200" title="$200">
+        </div>
+    </div>
+ <!--final-->
+    <footer class="footer">
+        <div class="footer">
+            <p>
+                &copy; 2024 carlos carrillo<br>
+                todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js/home.js"></script>
+
+</body>
+
+</html>
