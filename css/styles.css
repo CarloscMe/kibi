@@ -5,11 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    scrollbar-color: rgb(248, 240, 240) rgb(14, 13, 13) ;
-}
-
+    
 a {
     color: rgb(251, 252, 252);    
 }
@@ -59,7 +55,7 @@ a {
 }
 
 .fondo{
-    background-image: url('./img/fondoh.jpg');
+    background-image: url('../img/fondoh.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -107,7 +103,7 @@ a {
   }
 
   .fnd{
-    background-image: url('./img/fondos.jpg');
+    background-image: url('../img/fondos.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -170,7 +166,7 @@ a {
 }
 
 .fin{
-    background-image: url('./img/fondou.jpg');
+    background-image: url('../img/fondou.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
